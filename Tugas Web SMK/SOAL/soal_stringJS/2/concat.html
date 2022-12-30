@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menggabung 2 string dengan javascript</title>
+    <script type="text/javascript">
+        function klik() {
+            var pertama = document.getElementById("pertama").value+"";
+            var kedua = document.getElementById("kedua").value+"";
+            
+            document.getElementById("output").innerHTML = pertama.concat(kedua);
+        }
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Masukan string pertama : </td>
+        </tr>
+        <tr>
+            <td><input type="text" name="pertama" id="pertama" size="30"/></td>
+        </tr>
+        <tr>
+            <td>Masukan string kedua : </td>
+        </tr>
+        <tr>
+            <td><input type="text" name="kedua" id="kedua" size="30"/></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="gabungkan" onclick="klik()"></td>
+        </tr>
+        <tr>
+            <td>Hasil penggabungan string : </td>
+        </tr>
+        <tr>
+            <td id="output"></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Input output javascript</title>
+    <script language="javascript">
+        function InputOutput() {
+            var x;
+            x = document.getElementById("nama").value;
+            document.getElementById("nama_output").value=x;
+            var j;
+            j = document.getElementById("kelas").value;
+            document.getElementById("kelas_output").value=j;
+            var y;
+            y = document.getElementById("email").value;
+            document.getElementById("email_output").value=y;
+            var z;
+            z = document.getElementById("nomor").value;
+            document.getElementById("nomor_output").value=z;
+        }
+
+    </script>
+</head>
+<body>
+    <div class="tengah">
+        <div class="text">
+          <h3>Agil (XI RPL A)</h3>
+            <h4>Input data pendaftaran anda</h4>
+        </div>
+        <label>Nama : </label>
+        <input type="text" id="nama">
+        <br>
+        <label>Kelas :&nbsp;</label>
+        <input type="text" id="kelas">
+        <br>
+        <label>Email : </label>
+        <input type="text" id="email">
+        <br>
+        <label>No hp : </label>
+        <input type="number" id="nomor">
+        <br>
+        <br>
+
+        <h4>Output data pendaftaran anda</h4>
+        <label>Nama : </label>
+        <input type="text" id="nama_output" disabled>
+        <br>
+        <label>Kelas :</label>
+        <input type="text" id="kelas_output" disabled>
+        <br>
+        <label>Email :</label>
+        <input type="text" id="email_output" disabled>
+        <br>
+        <label>No hp :</label>
+        <input type="text" id="nomor_output" disabled>
+        <br><br>
+
+        <input type="button" value="output" id="proses" onclick="InputOutput()">
+        <a href="js.html"><input type="button" value="reset"></a>
+    </div>
+</body>
+</html>

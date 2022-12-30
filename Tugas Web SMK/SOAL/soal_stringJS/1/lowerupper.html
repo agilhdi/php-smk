@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uppercase dan lowercase javascript</title>
+</head>
+<body>
+	Ubah kecil ke besar: <input type="text" onkeypress="lowerupper();" id="upper">
+	<br> <br>
+	(gunakan capslock untuk input yang ini) <br> 
+    Ubah besar ke kecil: <input type="text" onkeypress="lowerupper();" id="lower">
+	<script>
+		function lowerupper()
+		{
+		var str = document.getElementById('upper').value;
+		// var lowertoupper = str.toUpperCase();
+		if(str == str.toLowerCase())
+		{
+			document.getElementById('upper').value = str.toUpperCase();
+		}
+	}
+	function lowerupper(){
+         var str = document.getElementById('upper').value   
+        document.getElementById('upper').value = str.toUpperCase();
+         var s = document.getElementById('lower').value   
+        document.getElementById('lower').value = s.toLowerCase();
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+==METODE GET DAN POST SERTA VARIABEL SISTEM PHP ==
+1) Buatlah sebuah halaman formulir pendaftaran pada halaman web dengan interaksi database (INSERT TABLE) dimana terdapat pengisian data seperti di bawah ini: 
+Nama		: .............................. 
+Alamat		: ..............................
+Jenis Kelamin	: 	o Laki-laki   
+			o Perempuan
+Jurusan		: 	o TKR 
+			o TEI
+			o TKI
+			o RPL
+			o TAV 
+Hobi		:    	?  Basket     
+			?  Futsal    
+			?  Renang     
+			?  Bersepeda    
+			?  Berwisata 
+2) Modifikasikan penggunaan kode program Upload File dengan menambahkan ekstensi file berupa dokumen (doc, docx, xls, dll), musik (mp3 dan amr), dan video (mp4, avi, mpeg, mov, dll) dengan batasan ukuran file yaitu 2 MB (Mega Byte)

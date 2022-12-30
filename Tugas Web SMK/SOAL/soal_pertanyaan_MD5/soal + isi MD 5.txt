@@ -1,0 +1,10 @@
+1. Apa fungsi dari penerapan SESSION dalam PHP ? 
+2. Apa perbedaan dari penggunaan GET dan POST dalam PHP ? 
+3. Apa kegunaan MD5 dalam form login ? 
+4. Apakah perlu penerapan MD5 dalam enkripsi data ? Jelaskan ! 
+=== JAWAB ===
+1. untuk melakukan aktivitas yang berhubungan dengan interaksi user.
+2.	*POST akan mengirimkan nilai langsung ke action untuk ditampung, tidak tampil pada URL.
+	*GET akan menampilkan nilai pada URL, kemudian akan ditampung oleh action.
+3. meng-enkripsi data yang bersifat rahasia.
+4. sangat di perlukan, karena dapat me minimalisir pencurian data oleh orang yang bertanggung jawab dan menjaga password dari hacker.

@@ -1,0 +1,2 @@
+==Mengenal Pernyataan Kontrol==
+Pada beberapa kode program di atas, silahkan kalian praktikkan pada Notepad++ atau Sublime. Tujuannya adalah agar kalian tetap belajar meskipun kalian sedang melakukan kegiatan Prakerin. Selamat Belajar !!! 
